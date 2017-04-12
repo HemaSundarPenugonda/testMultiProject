@@ -1,0 +1,491 @@
+projectFile	testSuite	testCase
+3.1.6_RainyDay-Inactive_Providers	3.1.6_RainyDay-Inactive_Providers	B4.5. inactive recipient -701-donor 209
+3.1.6_RainyDay-Inactive_Providers	3.1.6_RainyDay-Inactive_Providers	B4.6. inactive donor - 210
+3.1.6_RainyDay-Inactive_Providers	3.1.6_RainyDay-Inactive_Providers	B4.31. answers to inactive recipient - 209
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-1. CTR-CTRA blocking
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-2. CTR-CTRA ok-CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-3. CTR-CTRA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-4. CTR-CTRA ok-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-5. CTR-CTRA ok-CTCH - CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-6. CTR-CTRA ok-CTCH - CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.7. CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.8. CTR-CTRA ok-CTCH-CTCHA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.9. CTR-CTRA ok-CTCH-CTCHA ok-CTP buffered
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.10. CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.11. CTR-CTRA ok-CTCH-CTCHA blocking-CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.12. CTR-CTRA ok-CTCH-CTCHA blocking-CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.13. CTR-CTRA ok-CTCH-CTCHA blocking-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-14. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.15. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2.16. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-17.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-18.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP Buffered
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_DossierDetailScreen	2-19.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-1. CTR-CTRA blocking
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-2. CTR-CTRA ok-CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-3. CTR-CTRA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-4. CTR-CTRA ok-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-5. CTR-CTRA ok-CTCH - CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-6. CTR-CTRA ok-CTCH - CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.7. CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.8. CTR-CTRA ok-CTCH-CTCHA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.9. CTR-CTRA ok-CTCH-CTCHA ok-CTP buffered
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.10. CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.11. CTR-CTRA ok-CTCH-CTCHA blocking-CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.12. CTR-CTRA ok-CTCH-CTCHA blocking-CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.13. CTR-CTRA ok-CTCH-CTCHA blocking-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-14. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.15. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP Direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2.16. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-17.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-18.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP Buffered
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.2_SunnyDay-State_Transitions_DonorGUI_ModuleScreen	2-19.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTC
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.3_Testing_Settings_DonorGUI	CTRA blocking_Par_CTRABlocking99CheckTRUE
+3.3.2_SunnyDay-State_Transitions_DonorGUI	3.3.3_Testing_Settings_DonorGUI	CTRA blocking_Par_CTRABlocking99CheckFALSE
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.1 missing sender block_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.2 sender sp too long_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.3 sender sp too short_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.4 empty sender sp_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.5 empty sender no_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.6 sender no too short_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.7 sender no too long_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.8 sender sp incorrect format_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.9 missing receiver SP_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.10 missing receiver block_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.11 receiver SP empty_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.12 receiver NO empty_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.13 receiver SP incorrect format_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.14 receiver NO incorrect format_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.15 empty messageid_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.16 messageid too long_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.17 missing timestamp_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.18 empty timestamp_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Header	A1.19 timestamp incorrect format_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.1 missing dossierid_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.2 incorrect dossierid format (mismatch regexp)_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.3 dossierid too long (>40)_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.4 Dossierid too short (>8)_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.5 Missing blocking_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.6 Blocking incorrect format_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.7 Empty blocking_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.8 wishdatetime incorrect format (pattern mismatch)_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.9 Empty wishdatetime_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.10 proposeddatetime incorrect format (pattern mismatch)_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.11 Empty proposeddatetime_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.12 Empty note_CTCHA
+3.1.1_RainyDay-XSD_Validations_CTCHA	3.1.1_RainyDay-XSD_Validations_CTCHA_Body	A7.13 Note too long_CTCHA
+3.3.1_ContractID_Validations	3.3.1_ContractID_Validations	CTR-CTRA blocking 99
+3.3.1_ContractID_Validations	3.3.1_ContractID_Validations	CTRWrongContractID-CTRAAutoBlock4
+3.3.1_ContractID_Validations	3.3.1_ContractID_Validations	CTR-CTRA blocking 99_MultipleCOntractIDFormat_1
+3.3.1_ContractID_Validations	3.3.1_ContractID_Validations	CTR-CTRA blocking 99_MultipleCOntractIDFormat_2
+3.3.1_ContractID_Validations	3.3.1_ContractID_Validations	CTRWrongContractID-CTRAAutoBlock4_MultipleFormats
+3.3.1_ContractID_Validations	CDV-696_true	CTR-CTRA blocking 99
+3.3.1_ContractID_Validations	CDV-696_true	1 OnlyContractID_WrongFormat
+3.3.1_ContractID_Validations	CDV-696_true	2 ContractIDandIBAN_WrongFormat
+3.3.1_ContractID_Validations	CDV-696_true	3 ContractIDandNumberSeries_WrongFormat
+3.3.1_ContractID_Validations	CDV-696_true	4 ContractIDWrong_IBANCorrect_Consumer
+3.3.1_ContractID_Validations	CDV-696_true	4 ContractIDWrong_IBANCorrect_Business
+3.3.1_ContractID_Validations	CDV-696_true	5 ContractIDWrong_NumberSeriesCorrect_Consumer
+3.3.1_ContractID_Validations	CDV-696_true	5 ContractIDWrong_NumberSeriesCorrect_Business
+3.3.1_ContractID_Validations	CDV-696_true	6 ContractIDWrong_IBANWrong_NumberSeriesCorrect
+3.3.1_ContractID_Validations	CDV-696_true	7 ContractIDWrong_IBANCorrect_NumberSeriesWrong
+3.3.1_ContractID_Validations	CDV-696_true	8 IBANCorrect_NumberSeriesCorrect_Consumer
+3.3.1_ContractID_Validations	CDV-696_true	8 IBANCorrect_NumberSeriesCorrect_Business
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.1 CTR-CTRA blocking 99
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.2 CTR-CTRA ok-CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.3 CTR-CTRA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.4 CTR-CTRA ok-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.5 CTR-CTRA ok-CTCH-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.6 CTR-CTRA ok-CTCH- CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.7 CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.8 CTR-CTRA ok-CTCH-CTCHA OK-CTP Direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.9 CTR-CTRA ok-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.10 CTR-CTRA ok-CTCH-CTCHA ok-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.11 CTR-CTRA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.12 CTR-CTRA ok-CTCH-CTCHA blocking-CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.13 CTR-CTRA ok-CTCH-CTCHA blocking-CTC Direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.14 CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.15  CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.16 CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.17 CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.18  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ViewDetails	C3.19 CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking -CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.1 CTR-CTRA blocking 99
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.2 CTR-CTRA ok-CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.3 CTR-CTRA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.4 CTR-CTRA ok-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.5 CTR-CTRA ok-CTCH-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.6 CTR-CTRA ok-CTCH- CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.7 CTR-CTRA ok-CTCH-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.8 CTR-CTRA ok-CTCH-CTCHA OK-CTP Direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.9 CTR-CTRA ok-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.10 CTR-CTRA ok-CTCH-CTCHA ok-CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.11 CTR-CTRA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.12 CTR-CTRA ok-CTCH-CTCHA blocking-CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.13 CTR-CTRA ok-CTCH-CTCHA blocking-CTC Direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.14 CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.15  CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.16 CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.17 CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking - CTP buffering
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.18  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP direct
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.2_SunnyDay-State_Transitions_RecipientGUI_ModuleScreen	C3.19 CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking -CTC
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.3_Testing_Settings_GUI_Recipient	CTR-CTRA blocking 99_SetValidationTrue
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.3_Testing_Settings_GUI_Recipient	CTR-CTRA blocking 99_SetValidationFalse
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.3_Testing_Settings_GUI_Recipient	CTR-CTRA blocking 99_SetValidationTrue_DiffFormat
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.3_Testing_Settings_GUI_Recipient	CTR-CTRA ok-CTP buffering_ParCTPBufferingFALSE
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.1_ContractId_Validations_GUI	CTR-CTRA blocking 99
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.1_ContractId_Validations_GUI	CTR-CTRA blocking 99_MultipleCOntractIDFormat_1
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	3.3.1_ContractId_Validations_GUI	CTR-CTRA blocking 99_MultipleCOntractIDFormat_2
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 99
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 11_BusinessOnly
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 12_BusinessOnly_HalfBaked
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 3
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 7
+3.3.2_SunnyDay-State_Transitions_RecipientGUI	CDV537	CTR-CTRA blocking 9
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.1 missing sender block
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.2 sender sp too long
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.3 sender sp too short
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.4 empty sender sp
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.5 empty sender no
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.6 sender no too short
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.7 sender no too long
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.8 sender sp incorrect format
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.9 missing receiver SP
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.10 missing receiver block
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.11 receiver SP empty
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.12 receiver NO empty
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.13 receiver SP incorrect format
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.14 receiver NO incorrect format
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.15 empty messageid
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.16 messageid too long
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.17 missing timestamp
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.18 empty timestamp
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Header	A1.19 timestamp incorrect format
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.1 missing dossierid
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.2 incorrect dossierid format (mismatch regexp)
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.3 dossierid too long (>40)
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.4 Dossierid too short (>8)
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.5 wishdatetime incorrect format (pattern mismatch)
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.6 Empty wishdatetime
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.7 Empty note
+3.1.1_RainyDay-XSD_Validations_CTCH	3.1.1_RainyDay-XSD_Validations_CTCH_Body	A6.8 Note too long
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTR-WishDateTime_Today
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTR-WishDateTime_Yesterday
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTR-WishDateTime_MaxDaysPlus1
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTRA blocking 9_Yesterday
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTCH-WishDateTime_Today
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTCH-WishDateTime_Yesterday
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTCH-WishDateTime_MaxDaysPlus1
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_SOAP	CTCHA blocking_Yesterday
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_GUI_CTR_CTCH	CTR_WishDateTime_GUI
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_GUI_CTR_CTCH	CTCH_WishDateTime_GUI
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_GUI_CTRA_CTCHA	CTRA_WishDateTime_GUI_Yesterday
+3.3.3.2_4_RainyDay-Max_WishDate	3.3.3.2_4_RainyDay-Max_WishDate_GUI_CTRA_CTCHA	CTCHA_WishDateTime_GUI_Yesterday
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckTrue_CorrectFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckTrue_WrongFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckFalse_CorrectFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckFalse_WrongFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckTrue_DiffAndCorrectFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR_NumberSeriesCheckTrue_DiffAndWrongFormat
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTR-CTRA ok-CTP Buffering_ParCTPBufferingFALSE
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTRA blocking_Par_CTRABlocking99CheckTRUE
+3.3.3_Testing_Settings_SOAP	3.3.3_Testing_Settings_SOAP	CTRA blocking_Par_CTRABlocking99CheckFALSE
+3.1.2_SunnyDay-SOAP_DB_Validations	3.1.2_SunnyDay-SOAP_DB_Validations	CTR-CTRA ok-CTCH-CTCHA-CTC
+3.1.2_SunnyDay-SOAP_DB_Validations	3.1.2_SunnyDay-SOAP_DB_Validations	CTR-CTRA ok-CTP buffering
+IndTasks	CDV753	ConsumerCheck
+IndTasks	CDV753	BusinessCheck
+IndTasks	CDV859	SingleDomain-User
+IndTasks	CDV859	SingleDomain-ReadOnlyUser
+IndTasks	CDV859	MultiDomain-User
+IndTasks	CDV859	MultiDomain-ReadOnlyUser
+IndTasks	CDV859	EmptyDomain-User
+IndTasks	CDV859	EmptyDomain-ReadOnlyUser
+3.2_OutGoing_Message_Assertions	3.2_OutGoing_Message_Assertions	B7.2. CTR-CTRA Blocking
+3.2_OutGoing_Message_Assertions	3.2_OutGoing_Message_Assertions	B7.5. CTR-CTRA ok-CTCH-CTCHA ok-CTP buffering
+3.2_OutGoing_Message_Assertions	3.2_OutGoing_Message_Assertions	B7.6. CTR-CTRA ok-CTCH-CTCHA blocking-CTP Direct
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.1 missing sender block_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.2 sender sp too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.3 sender sp too short_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.4 empty sender sp_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.5 empty sender no_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.6 sender no too short_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.7 sender no too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.8 sender sp incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.9 missing receiver SP_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.10 missing receiver block_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.11 receiver SP empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.12 receiver NO empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.13 receiver SP incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.14 receiver NO incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.15 empty messageid_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.16 messageid too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.17 missing timestamp_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.18 empty timestamp_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Header	A1.19 timestamp incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.1 missing dossierid_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.2 incorrect dossierid format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.3 dossierid too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.5 incorrect recipient serviceprovider format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.6 double recipient serviceprovider_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.7 empty recipient serviceprovider_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.8 missing recipient serviceprovider (220)_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.9 recipient serviceprovider too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.10 incorrect donor serviceprovider format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.11 missing donor serviceprovider (221)_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.12 incorrect recipient networkoperator format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.13 incorrect donor networkoperator format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.14 missing wishdatetime_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.15 incorrect wishdatetime format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.16 missing business_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.17 incorrect business_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.19 empty earlytermination_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.20 incorrect earlytermination_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.21 name too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.22 missing name_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.23 missing addressblock_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.24 missing postcode_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.25 postcode incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.26 empty postcode_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.27 missing housenumber_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.28 empty housenumber_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.29 housenumber too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.30 housenumber incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.31 housenumber extension too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.32 empty housenumberextension_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.33 number series block with unknown tag_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.34 empty numberseries block_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.35 numberseriesstart missing_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.36 numberseries start incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.37 numberseries start empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.38 numberseries end incorrect format_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.39 numberseries end empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.40 validationblock empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.41 validationblock name empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.42 validationblock name missing_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.43 validationblock name too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.45 validationblock value empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.46 validationblock value missing_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.47 validationblock value too long_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.49 validationblock name/value/name_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.50 note empty_CTR
+3.1.1_RainyDay-XSD_Validations_CTR	3.1.1_RainyDay-XSD_Validations_CTR_Body	A2.51 note too long_CTR
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.1. CTR-CTRA blocking 99
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.2. CTR-CTRA ok-CTP buffering
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.3. CTR-CTRA ok-CTP direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.4. CTR-CTRA ok-CTC
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.5. CTR-CTRA ok-CTCH-CTP buffering
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.6. CTR-CTRA ok-CTCH-CTP direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.7. CTR-CTRA ok-CTCH-CTC
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.8. CTR-CTRA ok-CTCH-CTCHA ok-CTP buffering
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.9. CTR-CTRA ok-CTCH-CTCHA ok-CTP direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.10. CTR-CTRA ok-CTCH-CTCHA ok-CTC
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.11. CTR-CTRA ok-CTCH-CTCHA blocking-CTP buffering
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.12. CTR-CTRA ok-CTCH-CTCHA blocking-CTP direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.13. CTR-CTRA ok-CTCH-CTCHA blocking-CTC
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.14. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP buffering
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.15. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTP Direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.16. CTR-CTRA ok-CTCH-CTCHA blocking-CTCH-CTCHA ok - CTC
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.17.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP Buffered
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.18.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTP direct
+3.1.4_SunnyDay-State_Transitions_SOAP	3.1.4_SunnyDay-State_Transitions_SOAP	B2.19.  CTR-CTRA ok-CTCH-CTCHA ok-CTCH-CTCHA blocking-CTC
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	Invalid workflow no dossier
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.1. Invalid workflow status Request
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.2 Invalid workflow status Request Answer OK
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.3 Invalid workflow status Request Answer Blocking
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.4 Invalid workflow status Change
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.5 Invalid workflow status Change Answer OK
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.6 Invalid workflow status Change Answer Blocking
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.7 Invalid workflow status Cancel
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.8 Invalid workflow status Pending Performed
+3.1.5_6_RainyDay-ErrorCodes	3.1.5_RainyDay-DuplicateMessages	B3.9 Invalid workflow status Completed Performed
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.1. unknown sender SP code -220
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.2. unknown receiver SP code -221
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.3. unknown recipient SP code -220
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.4. unknown donor SP code -221
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.7. wishdate = maxwishdate + 1 - blocking 8
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.8. wishdate = minwishdate - 1 - blocking 9
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.9. donor in subject could not be found - 216
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.10. ContractID already exists - blocking 1
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.11. no contractid iban and telephone number - blocking 10
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.12. CTRA wishdate <> CTR wishdate - 231
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.13. COMP only blockingcode used - 235
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.14. Business only blockingcode used on non-business request - 236
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.15-19. invalid blockings - 232-236
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.20-26. CTCHA with wrong dates 230-238-751
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.27. Inactive interface CTR - 222
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.28. CTR invalid switchid -216
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.29. CTRA proposeddate in the past and future - 230-503
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.30. unknown sender on SOAP - SOAP 700
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	B4.32-33. CTCH with wrong dates - 230-aut.blocking
+3.1.5_6_RainyDay-ErrorCodes	3.1.6_RainyDay-ErrorCodes	DuplicateDossierID
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.1a RecipientGUIDonorGUI
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.1b RecipientGUIDonorGUI
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.2a RecipientSOAPDonorSOAP_BusinessGuiOnly_BusinessReq
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.2a RecipientSOAPDonorGUIOnly
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.2b RecipientGUIDonorSOAP_BusinessGuiOnly_BusinessReq
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.2b RecipientGUIDonorGUIOnly
+3.5_Emails	3.5.1_Message_Notification_Emails	D1.3 RecipientGUIOnlyDonorSOAP
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	RequestAnswerOK_14Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	RequestAnswerOK_15Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	RequestAnswerOK_16Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	Change_14Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	Change_15Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	Change_16Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerOK_14Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerOK_15Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerOK_16Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerBlocking_14Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerBlocking_15Days
+3.5_Emails	3.5.3_4_Cancel/Confirmation_Mails	ChangeAnswerBlocking_16Days
+3.5_Emails	3.5.5_6_Status/NotificationMails	Status Mails
+3.5_Emails	3.5.5_6_Status/NotificationMails	Notification Mails
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.1 missing sender block_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.2 sender sp too long_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.3 sender sp too short_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.4 empty sender sp_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.5 empty sender no_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.6 sender no too short_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.7 sender no too long_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.8 sender sp incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.9 missing receiver SP_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.10 missing receiver block_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.11 receiver SP empty_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.12 receiver NO empty_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.13 receiver SP incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.14 receiver NO incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.15 empty messageid_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.16 messageid too long_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.17 missing timestamp_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.18 empty timestamp_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Header	A1.19 timestamp incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.1 missing dossierid_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.2 incorrect dossierid format (mismatch regexp)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.3 dossierid too long (>40)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.4 Dossierid too short (>8)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.5 Missing business (v3 only)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.6 Business incorrect format (v3 only)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.7 Missing blocking_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.8 BlockingIncorrectFormat_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.9 Empty blocking_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.10 Wishdatetime incorrect format (pattern mismatch)_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.11 Empty wishdatetime_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.12 Blockingcode incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.13 Empty blockingcode_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.14 Proposeddatetime incorrect format_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.15 Empty proposedatettime_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.23 Empty note_CTRA
+3.1.1_RainyDay-XSD_Validations_CTRA	3.1.1_RainyDay-XSD_Validations_CTRA_Body	A3.24 Note too long_CTRA
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.1 missing sender block_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.2 sender sp too long_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.3 sender sp too short_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.4 empty sender sp_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.5 empty sender no_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.6 sender no too short_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.7 sender no too long_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.8 sender sp incorrect format_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.9 missing receiver SP_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.10 missing receiver block_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.11 receiver SP empty_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.12 receiver NO empty_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.13 receiver SP incorrect format_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.14 receiver NO incorrect format_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.15 empty messageid_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.16 messageid too long_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.17 missing timestamp_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.18 empty timestamp_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Header	A1.19 timestamp incorrect format_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.1 missing dossierid_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.2 incorrect dossierid format (mismatch regexp)_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.3 dossierid too long (>40)_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.4 Dossierid too short (>8)_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.5 actualdatetime incorrect format (pattern mismatch)_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.6 Empty actualdatetime_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.7 Empty note_CTP
+3.1.1_RainyDay-XSD_Validations_CTP	3.1.1_RainyDay-XSD_Validations_CTP_Body	A4.8 Note too long_CTP
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-1. only contractid
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-2. only iban
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-3. only telnrstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-4.  telnrstart = telnrend
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-5.  contractid + iban
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-6.  contractid + telnrstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-7.  contractid + telnrstart + telnrend
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-8.  iban + telnrstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-9.  iban + telnrstart + telnrend
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_SOAP	A4-10. all
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	Only Contract ID
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	Only IBAN
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	ContactId +iban
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	telnetstart =telnetend
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	Only telnetstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	Contractid+telnetstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	Contractid+telnetstart+telnetend
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	IBAN +telnetstart
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	IBAN +telnetstart+telnetEnd
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	all
+3.1.3_SunnyDay-Smart_Validations	3.1.3_SunnyDay-Smart_Validations_GUI	GUI_ValidationMessages
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTR with wishdatetime = todayT23:59
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTR with wishdatetime = max. days + today
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTRA blocking proposeddatetime on limits
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTCH with wishdatetime = todayT23:59
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTCH with wishdatetime =max.days+ today
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_SOAP	CTCHA blocking with proposeddatetime on limits
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_GUI_CTR_CTCH	CTR_WishDateTime_GUI_Max
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_GUI_CTR_CTCH	CTCH_WishDateTime_GUI_Max
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_GUI_CTRA_CTCHA	CTRA_WishDateTime_GUI_FarFuture
+3.3.3.1_3_SunnyDay-Max_WishDate	3.3.3.1_3_SunnyDay-Max_WishDate_GUI_CTRA_CTCHA	CTCHA_WishDateTime_GUI_FarFuture
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.1 missing sender block_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.2 sender sp too long_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.3 sender sp too short_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.4 empty sender sp_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.5 empty sender no_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.6 sender no too short_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.7 sender no too long_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.8 sender sp incorrect format_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.9 missing receiver SP_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.10 missing receiver block_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.11 receiver SP empty_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.12 receiver NO empty_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.13 receiver SP incorrect format_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.14 receiver NO incorrect format_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.15 empty messageid_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.16 messageid too long_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.17 missing timestamp_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.18 empty timestamp_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Header	A1.19 timestamp incorrect format_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.1 missing dossierid_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.2 incorrect dossierid format (mismatch regexp)_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.3 dossierid too long (>40)_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.4 Dossierid too short (>8)_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.5 Empty note_CTC
+3.1.1_RainyDay-XSD_Validations_CTC	3.1.1_RainyDay-XSD_Validations_CTC_Body	A5.6 Note too long_CTC
+IndTasks	CDV753	ConsumerCheck
+IndTasks	CDV753	BusinessCheck
+IndTasks	CDV859	SingleDomain-User
+IndTasks	CDV859	SingleDomain-ReadOnlyUser
+IndTasks	CDV859	MultiDomain-User
+IndTasks	CDV859	MultiDomain-ReadOnlyUser
+IndTasks	CDV859	EmptyDomain-User
+IndTasks	CDV859	EmptyDomain-ReadOnlyUser
+IndTasks	OV-21	B2.1. CTR-CTRA blocking 11_NoProposeDate
+IndTasks	OV-21	B2.1. CTR-CTRA blocking 11_91Days
+IndTasks	OV-21	B2.1. CTR-CTRA blocking 11_FarFuture
+IndTasks	OV-21	B2.1. CTR-CTRA blocking 11_Past
+IndTasks	OV-21Gui	1.1 Business CTR-Business CTRA-Wishdate-Todays date Proposed date-Todays date
+IndTasks	OV-21Gui	1.2 Business CTR-Business CTRA Wish date -Todays date Proposed date-Todays date+90
+IndTasks	OV-21Gui	1.3 Business CTR-Business CTRA Wish date -Todays date Proposed date-Todays date+1 year
+IndTasks	OV-21Gui	1.4 Business CTR-Business CTRA Wish date -Todays date Proposed date-Todays date+2 year
+IndTasks	OV-21Gui	1.5 Business CTR-Business CTRA Wish date -Todays date Proposed date-Todays date+2 year and 1 day
+IndTasks	OV-21Gui	2.1 Busiesss CTR-Consumer CTRA-Wishdate-Todays date Proposed date-Todays date
+IndTasks	OV-21Gui	2.2 Business CTR-Consumer CTRA Wish date -Todays date Proposed date-Todays date+90
+IndTasks	OV-21Gui	2.3 Business CTR-Consumer CTRA Wish date -Todays date Proposed date-Todays date+1 year
+IndTasks	OV-21Gui	2.4 Business CTR-Consumer CTRA Wish date -Todays date Proposed date-Todays date+2 year
+IndTasks	OV-21Gui	2.5 Business CTR-Consumer CTRA Wish date -Todays date Proposed date-Todays date+2 year and 1 day
+IndTasks	OV-21Gui	3.1 Consumer CTR-Business CTRA-No-Blocking code 11
+IndTasks	OV-21Gui	3.2 Consumer CTR-Consumer CTRA-No-Blocking code 11
+IndTasks	OV-42	start block with 20 digits
+IndTasks	OV-42	Missing endblock
+IndTasks	OV-42	end block with 20 digits
+IndTasks	OV-42	start block with more than 20 digits
+IndTasks	OV-42	end block with  more than 20 digits
+IndTasks	OV-42	start block with negative number
+IndTasks	OV-42	end block with negative number

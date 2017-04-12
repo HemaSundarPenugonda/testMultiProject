@@ -1,0 +1,4 @@
+browser=firefox,chrome
+environment =http://192.168.100.21:8088/comp/,http://192.168.100.21:8080/compv4_1/,http://192.168.100.21:8088/compv4_1/,https://testComp.coin.nl/compv4_1/
+testSuiteRunType =default,parallel,sequential
+projectFile	=3.1.6_RainyDay-Inactive_Providers.xml,3.3.2_SunnyDay-State_Transitions_DonorGUI.xml,3.1.1_RainyDay-XSD_Validations_CTCHA.xml,3.3.1_ContractID_Validations.xml,3.3.2_SunnyDay-State_Transitions_RecipientGUI.xml,3.1.1_RainyDay-XSD_Validations_CTCH.xml,3.3.3.2_4_RainyDay-Max_WishDate.xml,3.3.3_Testing_Settings_SOAP.xml,3.1.2_SunnyDay-SOAP_DB_Validations.xml,IndTasks.xml,3.2_OutGoing_Message_Assertions.xml,3.1.1_RainyDay-XSD_Validations_CTR.xml,3.1.4_SunnyDay-State_Transitions_SOAP.xml,3.1.5_6_RainyDay-ErrorCodes.xml,3.5_Emails.xml,3.1.1_RainyDay-XSD_Validations_CTRA.xml,3.1.1_RainyDay-XSD_Validations_CTP.xml,3.1.3_SunnyDay-Smart_Validations.xml,3.3.3.1_3_SunnyDay-Max_WishDate.xml,3.1.1_RainyDay-XSD_Validations_CTC.xml,IndTasks.xml,

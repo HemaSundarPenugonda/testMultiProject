@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<!-- ===================================================================== -->
+<!-- -->
+<!-- Log4j Configuration -->
+<!-- -->
+<!-- ===================================================================== -->
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+
+	<!-- ============================== -->
+	<!-- Append messages to the console -->
+	<!-- ============================== -->
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d] - %-5p: %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="qa-test" class="org.apache.log4j.FileAppender">
+		<param name="File" value="Logs/qa-test.log" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d] - %-5p: %m%n" />
+		</layout>
+	</appender>
+
+
+	<!-- ========================================== -->
+	<!-- Print message levels for specific packages -->
+	<!-- ========================================== -->
+
+	<!-- ============================================== -->
+	<!-- Set root logger and appender to default level -->
+	<!-- ============================================== -->
+
+	<root>
+		<priority value="ERROR" />
+		<appender-ref ref="qa-test" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+</log4j:configuration>
+

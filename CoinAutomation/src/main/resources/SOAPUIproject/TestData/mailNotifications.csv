@@ -1,0 +1,37 @@
+TP1;TP5;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP1;TP5;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP1;TP4;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP1;TP4;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP5;TP1;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP5;TP1;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP5;TP4;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP5;TP4;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP4;TP1;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP4;TP1;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP4;TP5;GUI;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP4;TP5;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP19;TP17;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP19;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP15;TP17;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP15;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP15;TP1;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP15;TP1;v2; ; ;GUI
+TP19;TP5;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP10;TP4;v2; ; ;GUI
+TP19;TP17;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP19;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP19;TP9;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v2
+TP15;TP17;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP15;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>;v3
+TP19;TP1;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP19;TP1;v3;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP15;TP5;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP15;TP5;v3;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP10;TP4;v2; ; ;GUI
+TP10;TP4;v2; ; ;GUI
+TP17;TP1;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP17;TP1;v3;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP12;TP5;v3;<business>Y</business>;<earlytermination>N</earlytermination>;GUI
+TP12;TP5;v3;<business>N</business>;<earlytermination>N</earlytermination>;GUI
+TP9;TP4;v2; ; ;GUI
+TP12;TP19;GUI;<business>Y</business>;<earlytermination>N</earlytermination>;v3

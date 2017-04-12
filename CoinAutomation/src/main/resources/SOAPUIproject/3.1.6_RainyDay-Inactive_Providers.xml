@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="3.1.6_RainyDay-Inactive_Providers" resourceRoot="${projectDir}" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="c69d17d9-8a76-4230-ac09-05b6029fb035" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="Rainy Day-CTR XSD error 201"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\SoapUI-5.1.3\bin"/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="50 b missing receiver block"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+</xml-fragment>]]></con:setting>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Report to Generate" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\SoapUI-5.1.3/bin"/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="LoadTest" value="&lt;all>"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Print Report Statistics" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="ThreadCount" value=""/>
+  <con:entry key="Limit" value=""/>
+</xml-fragment>]]></con:setting>
+  </con:settings>
+  <con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="CompWebserviceSoap11" type="wsdl" bindingName="{http://coin.nl/ws/definitions}CompWebserviceSoap11" soapVersion="1_1" anonymous="optional" definition="${#Project#SoapUrl}" id="8a537fab-845e-48f0-a37f-a40e9d723dce" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings>
+      <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.tcpmon.TcpMonAction@values-local">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="Local Port" value=""/>
+  &lt;con:entry key="Add local endpoint" value="false"/>
+  &lt;con:entry key="Endpoint" value=""/>
+&lt;/xml-fragment></con:setting>
+    </con:settings>
+    <con:definitionCache type="TEXT" rootPart="http://192.168.100.28:8080/compv3/compmessage.wsdl">
+      <con:part>
+        <con:url>http://192.168.100.28:8080/compv3/compmessage.wsdl</con:url>
+        <con:content><![CDATA[<wsdl:definitions targetNamespace="http://coin.nl/ws/definitions" xmlns:sch="http://coin.nl/ws/schema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://coin.nl/ws/definitions" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://coin.nl/ws/schema" xmlns:ws-msg="http://coin.nl/ws/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <!--Simple Types-->
+      <xsd:simpleType name="TransactionId">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="60"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <!--Grouped Elements-->
+      <xsd:group name="Message">
+        <xsd:annotation>
+          <xsd:documentation/>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Text" type="xsd:string">
+            <xsd:annotation>
+              <xsd:documentation>Mandatory field containing the message text.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:group>
+      <!--Complex Types-->
+      <xsd:complexType name="Message">
+        <xsd:sequence>
+          <xsd:group ref="ws-msg:Message"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <!--Request - Response Interface(s)-->
+      <xsd:element name="SendMessagesRequest">
+        <xsd:annotation>
+          <xsd:appinfo>Request interface for SendMessages.</xsd:appinfo>
+          <xsd:documentation>Generic interface for sending one or more (xml
+						based) messages.
+						When successfully received, the receiver of the
+						request will respond
+						with a TransactionId,
+						uniquely identifying
+						reception of the request and all the messages in it.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Sender" type="xsd:string"/>
+            <xsd:element name="Messages">
+              <xsd:complexType>
+                <xsd:sequence maxOccurs="unbounded" minOccurs="1">
+                  <xsd:element name="Message" type="ws-msg:Message"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SendMessagesResponse">
+        <xsd:annotation>
+          <xsd:appinfo>Response interface for SendMessages.</xsd:appinfo>
+          <xsd:documentation/>
+        </xsd:annotation>
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="TransactionId" type="ws-msg:TransactionId"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SendMessagesRequest">
+    <wsdl:part element="sch:SendMessagesRequest" name="SendMessagesRequest"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SendMessagesResponse">
+    <wsdl:part element="sch:SendMessagesResponse" name="SendMessagesResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CompWebservice">
+    <wsdl:operation name="SendMessages">
+      <wsdl:input message="tns:SendMessagesRequest" name="SendMessagesRequest"></wsdl:input>
+      <wsdl:output message="tns:SendMessagesResponse" name="SendMessagesResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CompWebserviceSoap11" type="tns:CompWebservice">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SendMessages">
+      <soap:operation soapAction="http://coin.nl/SendMessages"/>
+      <wsdl:input name="SendMessagesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SendMessagesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CompWebserviceService">
+    <wsdl:port binding="tns:CompWebserviceSoap11" name="CompWebserviceSoap11">
+      <soap:address location="http://192.168.100.28:8080/compv3/MessageService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content>
+        <con:type>http://schemas.xmlsoap.org/wsdl/</con:type>
+      </con:part>
+    </con:definitionCache>
+    <con:endpoints>
+      <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+    </con:endpoints>
+    <con:operation isOneWay="false" action="http://coin.nl/SendMessages" name="SendMessages" bindingOperationName="SendMessages" type="Request-Response" outputName="SendMessagesResponse" inputName="SendMessagesRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="8c3829e4-5325-42d3-82e4-242fad1e423c">
+      <con:settings/>
+      <con:call name="Contract Termination Request" outgoingWss="" incomingWss="" id="8915428a-63eb-41b1-989c-749c2e2f0cce" wssPasswordType="PasswordText">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>TP10</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<over:message xmlns:over="http://www.coin.nl/Overstappen_MESSAGES">
+<over:header>
+<over:receiver>
+<!--Optional:-->
+<over:networkoperator>TP14</over:networkoperator>
+<!--Optional:-->
+<over:serviceprovider>TP14</over:serviceprovider>
+</over:receiver>
+<over:sender>
+<!--Optional:-->
+<over:networkoperator>TP10</over:networkoperator>
+<!--Optional:-->
+<over:serviceprovider>TP10</over:serviceprovider>
+</over:sender>
+<!--Optional:-->
+<over:messageid>TP10-TP14-TESTING-01</over:messageid>
+<over:timestamp></over:timestamp>
+</over:header>
+<over:body>
+<over:contractterminationrequest>
+<over:v1>
+<over:dossierid>TP10-TP14-TESTING-01</over:dossierid>
+<!--Optional:-->
+<over:recipientserviceprovider>TP10</over:recipientserviceprovider>
+<!--Optional:-->
+<over:recipientnetworkoperator>TP10</over:recipientnetworkoperator>
+<!--Optional:-->
+<over:donornetworkoperator>TP14</over:donornetworkoperator>
+<!--Optional:-->
+<over:donorserviceprovider>TP14</over:donorserviceprovider>
+<over:customerinfo>
+<!--Optional:-->
+<over:initials>Ms</over:initials>
+<!--Optional:-->
+<over:prefix>Priyanka</over:prefix>
+<!--Optional:-->
+<over:lastname>Taneja</over:lastname>
+<!--Optional:-->
+<over:telephonecontact>0886086375</over:telephonecontact>
+<!--Optional:-->
+<over:emailaddresscontact>f@xebia.com</over:emailaddresscontact>
+<!--Optional:-->
+<over:companyname>XEBIA PVT LTD</over:companyname>
+<!--Optional:-->
+<over:customerid>ABCDEFGH1234</over:customerid>
+<!--Optional:-->
+<over:contractid>SOAP3EMAIL</over:contractid>
+<over:contractaddress>
+<!--Optional:-->
+<over:address>HARINAGAR</over:address>
+<over:housenr>123</over:housenr>
+<!--Optional:-->
+<over:housenr_ext>123</over:housenr_ext>
+<over:postcode>1234AS</over:postcode>
+<!--Optional:-->
+<over:city>DELHI</over:city>
+<!--Optional:-->
+<over:country>IND</over:country>
+</over:contractaddress>
+<over:connectionaddress>
+<!--Optional:-->
+<over:address>HARINAGAR</over:address>
+<over:housenr>123</over:housenr>
+<!--Optional:-->
+<over:housenr_ext>123</over:housenr_ext>
+<over:postcode>1234AS</over:postcode>
+<!--Optional:-->
+<over:city>DELHI</over:city>
+<!--Optional:-->
+<over:country>IND</over:country>
+</over:connectionaddress>
+</over:customerinfo>
+<over:wishdatetime>2014-01-14</over:wishdatetime>
+<!--Optional:-->
+<over:note>TEST</over:note>
+</over:v1>
+</over:contractterminationrequest>
+</over:body>
+</over:message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>COINTP10</con:username>
+          <con:password>COINTP10</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:preemptive>true</con:preemptive>
+          <con:authType>Preemptive</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Contract Termination Request Answer" outgoingWss="" incomingWss="" id="73af3a6a-ca5e-4560-819c-8035caf9acee">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>KPN</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+  <header>
+    <receiver>
+      <networkoperator>ZIGGO</networkoperator>
+      <serviceprovider>ZIGGO</serviceprovider>
+    </receiver>
+    <sender>
+      <networkoperator>KPN</networkoperator>
+      <serviceprovider>KPN</serviceprovider>
+    </sender>
+    <messageid>ZIGGO-KPN-GUI2SOAP1-01</messageid>
+    <timestamp>2014-01-08T12:56:45</timestamp>
+  </header>
+  <body>
+    <contractterminationrequestanswer>
+      <v1>
+        <dossierid>ZIGGO-KPN-GUI2SOAP1-01</dossierid>
+        <blocking>N</blocking>
+        <wishdatetime>2014-01-17</wishdatetime>
+        <blockingcode>0</blockingcode>
+        <note>TEST-ANSWER</note>
+      </v1>
+    </contractterminationrequestanswer>
+  </body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>Bert</con:username>
+          <con:password>Ernie</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:preemptive>true</con:preemptive>
+          <con:authType>Preemptive</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Multiple Contract Termination Requests" outgoingWss="" incomingWss="" id="ad0bd36e-cbfe-4f7c-bf73-cd36950c1291" wssPasswordType="PasswordText">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>CRY</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<networkoperator>FARI</networkoperator>
+<serviceprovider>FARI</serviceprovider>
+</receiver>
+<sender>
+<networkoperator>CRY</networkoperator>
+<serviceprovider>CRY</serviceprovider>
+</sender>
+<messageid>CRY-FARI-CryFari01-01</messageid>
+<timestamp>2014-01-22T13:40:45</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<v1>
+<dossierid>CRY-FARI-CryFari01-01</dossierid>
+<recipientserviceprovider>CRY</recipientserviceprovider>
+<recipientnetworkoperator>CRY</recipientnetworkoperator>
+<donornetworkoperator>FARI</donornetworkoperator>
+<donorserviceprovider>FARI</donorserviceprovider>
+<customerinfo>
+<initials>Ms</initials>
+<prefix>Priyanka</prefix>
+<lastname>Tanjea</lastname>
+<telephonecontact>0886086375</telephonecontact>
+<emailaddresscontact>f@xebia.com</emailaddresscontact>
+<companyname>XEBIA PVT LTD</companyname>
+<customerid>ABCDEFGH1234</customerid>
+<contractid>CryFari01</contractid>
+<contractaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</contractaddress>
+<connectionaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</connectionaddress>
+</customerinfo>
+<wishdatetime>2014-02-10</wishdatetime>
+<note></note>
+</v1>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<networkoperator>UPC</networkoperator>
+<serviceprovider>UPC</serviceprovider>
+</receiver>
+<sender>
+<networkoperator>CRY</networkoperator>
+<serviceprovider>CRY</serviceprovider>
+</sender>
+<messageid>CRY-UPC-CryUpc01-01</messageid>
+<timestamp>2014-01-22T13:40:45</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<v1>
+<dossierid>CRY-UPC-CryUpc01-01</dossierid>
+<recipientserviceprovider>CRY</recipientserviceprovider>
+<recipientnetworkoperator>CRY</recipientnetworkoperator>
+<donornetworkoperator>UPC</donornetworkoperator>
+<donorserviceprovider>UPC</donorserviceprovider>
+<customerinfo>
+<initials>Ms</initials>
+<prefix>Priyanka</prefix>
+<lastname>Tanjea</lastname>
+<telephonecontact>0886086375</telephonecontact>
+<emailaddresscontact>f@xebia.com</emailaddresscontact>
+<companyname>XEBIA PVT LTD</companyname>
+<customerid>ABCDEFGH1234</customerid>
+<contractid>CryUpc01</contractid>
+<contractaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</contractaddress>
+<connectionaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</connectionaddress>
+</customerinfo>
+<wishdatetime>2014-02-11</wishdatetime>
+<note></note>
+</v1>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<networkoperator>TEL2</networkoperator>
+<serviceprovider>TEL2</serviceprovider>
+</receiver>
+<sender>
+<networkoperator>CRY</networkoperator>
+<serviceprovider>CRY</serviceprovider>
+</sender>
+<messageid>CRY-TEL2-CryTel201-01</messageid>
+<timestamp>2014-01-22T13:40:45</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<v1>
+<dossierid>CRY-TEL2-CryTel201-01</dossierid>
+<recipientserviceprovider>CRY</recipientserviceprovider>
+<recipientnetworkoperator>CRY</recipientnetworkoperator>
+<donornetworkoperator>TEL2</donornetworkoperator>
+<donorserviceprovider>TEL2</donorserviceprovider>
+<customerinfo>
+<initials>Ms</initials>
+<prefix>Priyanka</prefix>
+<lastname>Tanjea</lastname>
+<telephonecontact>0886086375</telephonecontact>
+<emailaddresscontact>f@xebia.com</emailaddresscontact>
+<companyname>XEBIA PVT LTD</companyname>
+<customerid>ABCDEFGH1234</customerid>
+<contractid>CryTel201</contractid>
+<contractaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</contractaddress>
+<connectionaddress>
+<address>HARINAGAR</address>
+<housenr>123</housenr>
+<housenr_ext>123</housenr_ext>
+<postcode>1234AS</postcode>
+<city>DELHI</city>
+<country>IND</country>
+</connectionaddress>
+</customerinfo>
+<wishdatetime>2014-02-12</wishdatetime>
+<note></note>
+</v1>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>Bert</con:username>
+          <con:password>Ernie</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:preemptive>true</con:preemptive>
+          <con:authType>Preemptive</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Contract Termination Performed" id="6e6b212c-9d53-4340-bc3a-cadf2fccdbe8" outgoingWss="" incomingWss="">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <SendMessagesRequest xmlns="http://coin.nl/ws/schema">
+         <Sender>CRY</Sender>
+         <Messages>
+            <Message>
+               <Text><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+   <header>
+      <receiver>
+                  <networkoperator>FARI</networkoperator>
+         	              <serviceprovider>FARI</serviceprovider>
+               </receiver>
+      <sender>
+                  <networkoperator>CRY</networkoperator>
+         		          <serviceprovider>CRY</serviceprovider>
+               </sender>
+            <messageid>CRY-FARI-EndFlow01-01</messageid>
+            <timestamp>2014-01-23T14:11:18</timestamp>
+   </header>
+   <body>
+      <contractterminationperformed>
+         <v1>
+         <dossierid>CRY-FARI-EndFlow01-01</dossierid>
+                        <recipientserviceprovider>CRY</recipientserviceprovider>
+                                    <recipientnetworkoperator>CRY</recipientnetworkoperator>
+            			            <donornetworkoperator>FARI</donornetworkoperator>
+            			            <donorserviceprovider>FARI</donorserviceprovider>
+                        <actualdatetime>2014-01-23T14:11:18</actualdatetime>
+                        <note>Endflow_Performed</note>
+                     </v1>
+      </contractterminationperformed>
+   </body>
+</message>]]]]>><![CDATA[</Text>
+            </Message>
+         </Messages>
+      </SendMessagesRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>Bert</con:username>
+          <con:password>Ernie</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:authType>Global HTTP Settings</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Contract Termination Change" id="b4f976a0-cc99-45df-a7f1-d2aa1fa00928" outgoingWss="" incomingWss="">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <SendMessagesRequest xmlns="http://coin.nl/ws/schema">
+         <Sender>CRY</Sender>
+         <Messages>
+            <Message>
+               <Text><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+   <header>
+      <receiver>
+                  <networkoperator>FARI</networkoperator>
+         	              <serviceprovider>FARI</serviceprovider>
+               </receiver>
+      <sender>
+                  <networkoperator>CRY</networkoperator>
+         		          <serviceprovider>CRY</serviceprovider>
+               </sender>
+            <messageid>CRY-FARI-EndFlow01-01</messageid>
+            <timestamp>2014-01-23T13:19:15</timestamp>
+   </header>
+   <body>
+      <change>
+         <v1>
+         	<dossierid>CRY-FARI-EndFlow01-01</dossierid>
+            <wishdatetime>2014-02-18T15:00:34</wishdatetime>
+                        <note>endflow</note>
+                     </v1>
+      </change>
+   </body>
+</message>]]]]>><![CDATA[</Text>
+            </Message>
+         </Messages>
+      </SendMessagesRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>Bert</con:username>
+          <con:password>Ernie</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:authType>Global HTTP Settings</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Contract Termination Change Answer" id="7ecf7d3b-76e3-4e36-a0a6-bed12f91e92e" outgoingWss="" incomingWss="" timeout="" wssPasswordType="PasswordText">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <SendMessagesRequest xmlns="http://coin.nl/ws/schema">
+         <Sender>TP10</Sender>
+         <Messages>
+            <Message>
+               <Text><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+   <header>
+      <receiver>
+                  <networkoperator>TP14</networkoperator>
+         	              <serviceprovider>TP14</serviceprovider>
+               </receiver>
+      <sender>
+                  <networkoperator>TP10</networkoperator>
+         		          <serviceprovider>TP10</serviceprovider>
+               </sender>
+            <messageid>TP14-TP10-ALSBVNZRI-06</messageid>
+            <timestamp>${=String.format('%tFT%<tT', new Date())}</timestamp>
+   </header>
+   <body>
+      <changeanswer>
+         <v2>
+         	<dossierid>TP14-TP10-ALSBVNZRI-01</dossierid>
+         	<blocking>N</blocking>
+         	            <wishdatetime>2016-02-27T13:32:16</wishdatetime>
+                      <proposeddatetime>2016-02-27T13:32:16</proposeddatetime>
+                      <note>TESTWITHCHTCHAOK AFter blocking</note>
+                     </v2>
+      </changeanswer>
+   </body>
+</message>]]]]>><![CDATA[</Text>
+            </Message>
+         </Messages>
+      </SendMessagesRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>COINTP10</con:username>
+          <con:password>COINTP10</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:authType>Global HTTP Settings</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+      <con:call name="Contract Termination Cancel" id="fed57306-8fb5-4471-85e0-47e2f5a6d1d8" outgoingWss="" incomingWss="">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>ZIGGO</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>KPN</networkoperator>
+<!--Optional:-->
+<serviceprovider>KPN</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>ZIGGO</networkoperator>
+<!--Optional:-->
+<serviceprovider>ZIGGO</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>ZIGGO-KPN-EndFlow01-01</messageid>
+<timestamp>2014-01-28T14:30:00</timestamp>
+</header>
+<body>
+    <cancel>
+      <v1>
+        <dossierid>ZIGGO-KPN-EndFlow01-01</dossierid>
+        <note>Endflow_Cancel</note>
+      </v1>
+    </cancel>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:username>Bert</con:username>
+          <con:password>Ernie</con:password>
+          <con:domain xsi:nil="true"/>
+          <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+          <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+          <con:authType>Global HTTP Settings</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:call>
+    </con:operation>
+  </con:interface>
+  <con:testSuite name="3.1.6_RainyDay-Inactive_Providers" id="81bfd5e0-4d51-4bdd-a261-9f7112bb9fed">
+    <con:description>Sequential</con:description>
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="B4.5. inactive recipient -701-donor 209" searchProperties="true" id="c7de58f8-6140-48d1-b944-732d8a66dcde" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="">
+      <con:settings/>
+      <con:testStep type="request" name="CTR v2/3" id="415f9fd7-cae5-4cd6-92c2-9138d940073d">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTR v2/3" wssPasswordType="PasswordText" id="a2384f30-a94d-494a-bf03-d8346b0e4cf8">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<messageid>${#TestSuite#recipient}-${#TestCase#contractid}-01</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<recipientserviceprovider>${#TestSuite#recipient}</recipientserviceprovider>
+<recipientnetworkoperator>${#TestSuite#recipient}</recipientnetworkoperator>
+<donornetworkoperator>${#TestSuite#donor}</donornetworkoperator>
+<donorserviceprovider>${#TestSuite#donor}</donorserviceprovider>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+${#TestSuite#dossierType}
+${#TestSuite#compensationOK}
+<name>COIN</name>
+<addressblock>
+ 	<postcode>1389SS</postcode>
+	<housenr>99999</housenr>
+</addressblock>
+<numberseries>
+     <start>0173112233</start>
+     <end>0173112233</end>
+</numberseries>
+<validationblock>
+    <name>contractid</name>
+    <value>cx${#TestCase#contractID}</value>
+ </validationblock>
+<note>rainyday XSD validation</note>
+</${#TestSuite#soapVersion}>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="SOAP Response" id="7bd646aa-dfc2-481d-88fa-48b92a036ef7"/>
+            <con:assertion type="Simple Contains" id="0a872b5b-3345-446e-823a-d23b4428fd0a" name="Contains">
+              <con:configuration>
+                <token>Error Code :701 - The SOAP sending party is inactive</token>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>false</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#RecipientUsername}</con:username>
+              <con:password>${#TestSuite#RecipientPassword}</con:password>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:preemptive>true</con:preemptive>
+              <con:authType>Preemptive</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTCH" id="9409aece-6ce0-46cb-96ce-4813f3f6d756">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTCH" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="3aa22f8f-37c1-4ea2-ba88-b80068a3761f">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@follow-redirects">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text>
+<![CDATA[
+                    <?xml version="1.0" encoding="UTF-8"?>
+					<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<messageid>${#TestSuite#recipient}-${#TestCase#contractId}-003</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<change>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<wishdatetime>${#TestCase#proposedDate}</wishdatetime>
+<note>Change ${#TestSuite#soapVersion} OK</note>
+</${#TestSuite#soapVersion}>
+</change>
+</body>
+</message>
+               ]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="Not SOAP Fault Assertion" id="dd409ff4-0e33-4d93-b2c4-65d970754080" name="SOAP Fault"/>
+            <con:assertion type="SOAP Response" id="cf062aaa-7f84-4d0f-b01d-91e27540b6ba" name="SOAP Response"/>
+            <con:assertion type="Simple Contains" id="0019ab15-db00-4860-81b3-fb95dc62f83d" name="Contains">
+              <con:configuration>
+                <token>Error Code :701 - The SOAP sending party is inactive</token>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>false</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#recipientUserName}</con:username>
+              <con:password>${#TestSuite#recipientPassWord}</con:password>
+              <con:domain xsi:nil="true"/>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:authType>Global HTTP Settings</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTP" id="d11413f6-8896-4cc8-9aa1-d4865e542bed">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTP" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="3aa22f8f-37c1-4ea2-ba88-b80068a3761f">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@follow-redirects">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text>
+<![CDATA[
+ <?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#ContractId}-003</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationperformed>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<actualdatetime>${#TestSuite#TimestampNOW}</actualdatetime>
+<note>inactive recipient</note>
+</${#TestSuite#soapVersion}>
+</contractterminationperformed>
+</body>
+</message>            ]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="Not SOAP Fault Assertion" id="dd409ff4-0e33-4d93-b2c4-65d970754080" name="SOAP Fault"/>
+            <con:assertion type="SOAP Response" id="cf062aaa-7f84-4d0f-b01d-91e27540b6ba" name="SOAP Response"/>
+            <con:assertion type="Simple Contains" id="0019ab15-db00-4860-81b3-fb95dc62f83d" name="Contains">
+              <con:configuration>
+                <token>Error Code :701 - The SOAP sending party is inactive</token>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>false</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#recipientUserName}</con:username>
+              <con:password>${#TestSuite#recipientPassWord}</con:password>
+              <con:domain xsi:nil="true"/>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:authType>Global HTTP Settings</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTC" id="4af08be9-ea58-467d-8aec-4c781f2ed5e6">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTC" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="3aa22f8f-37c1-4ea2-ba88-b80068a3761f">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@follow-redirects">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text>
+<![CDATA[
+                    <?xml version="1.0" encoding="UTF-8"?>
+					<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#ContractId}-002</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<cancel>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<note>Cancel sent ${#TestSuite#soapVersion}, expect ${#TestSuite#donorSoapVersion}</note>
+</${#TestSuite#soapVersion}>
+</cancel>
+</body>					</message>
+               ]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="Not SOAP Fault Assertion" id="dd409ff4-0e33-4d93-b2c4-65d970754080" name="SOAP Fault"/>
+            <con:assertion type="SOAP Response" id="cf062aaa-7f84-4d0f-b01d-91e27540b6ba" name="SOAP Response"/>
+            <con:assertion type="Simple Contains" id="0019ab15-db00-4860-81b3-fb95dc62f83d" name="Contains">
+              <con:configuration>
+                <token>Error Code :701 - The SOAP sending party is inactive</token>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>false</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#recipientUserName}</con:username>
+              <con:password>${#TestSuite#recipientPassWord}</con:password>
+              <con:domain xsi:nil="true"/>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:authType>Global HTTP Settings</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTRA" id="ed4a93cf-6d63-45d9-b32f-009f0f282113">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTRA" wssPasswordType="PasswordText" id="a2384f30-a94d-494a-bf03-d8346b0e4cf8">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#donor}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#contractId}-001</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationrequestanswer>
+<${#TestSuite#donorSoapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+${#TestSuite#donorDossierType}
+<blocking>N</blocking>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+<blockingcode>0</blockingcode>
+<note>Request Answer ok ${#TestSuite#soapVersion} sent ${#TestSuite#donorSoapVersion} expected</note>
+</${#TestSuite#donorSoapVersion}>
+</contractterminationrequestanswer>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="SOAP Response" id="7bd646aa-dfc2-481d-88fa-48b92a036ef7"/>
+            <con:assertion type="XPath Match" name="Check for existance of [ns2:TransactionId]" id="1fda11b6-ac64-460b-a80b-3ace69554a04">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+exists( //ns2:SendMessagesResponse/ns2:TransactionId)</path>
+                <content>true</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="GroovyScriptAssertion" name="Assert ctraTransactionId" id="5b3feb3c-320c-4d94-8047-0de536a0d25a">
+              <con:configuration>
+                <scriptText>import com.eviware.soapui.support.XmlHolder
+
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+holder.namespaces["ns2"] = "http://coin.nl/ws/schema"
+def transactionId = holder.getNodeValue( "//ns2:SendMessagesResponse[1]/ns2:TransactionId[1]" )
+messageExchange.modelItem.testStep.testCase.setPropertyValue("ctraTransactionId",transactionId)</scriptText>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#donorUsername}</con:username>
+              <con:password>${#TestSuite#donorPassword}</con:password>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:preemptive>true</con:preemptive>
+              <con:authType>Preemptive</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_ST Table" id="15c739ee-b35f-4570-8278-333c64feed0c">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_transactions 
+where st_transaction_id = '${#TestCase#ctraTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_SEND_RECEIVED]" id="e040a4a7-c51e-41c1-9d50-1af5c712ccd9">
+            <con:configuration>
+              <path>exists( //Results/ResultSet/Row/ST_SEND_RECEIVED)</path>
+              <content>true</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_SEND_RECEIVED]" id="c4d9ed75-8840-4134-9ce4-499b819983e4">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_SEND_RECEIVED[1]/text()</path>
+              <content>received</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_TRANSACTION_ID]" id="3c641051-1cd1-4db0-a2c5-928b3bba1f62">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_TRANSACTION_ID[1]/text()</path>
+              <content>${#TestCase#ctraTransactionId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="5f57f9c1-5c2c-4b94-a318-9b62baa9e0c2" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="02df16a0-c29f-4fcb-8fe0-a8b91ff3da3b" name="Script: assert ion">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results[1]/ResultSet[1]/Row[1]/ID[1]", "ctraId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="5eb3eeff-67cd-43cc-a6fd-869dfeba9eda" name="Xpath: assert UserIP" disabled="true">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_IP/text()</path>
+              <content>${#Project#UserIP}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="289aa6d0-0847-45f8-a5e0-dd153c024021" name="Xpath: assert UserName">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_NAME/text()</path>
+              <content>${#TestSuite#donorUserName}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="d761fe35-05e6-484b-b566-28ac2bf7b332" name="Xpath: assert TechSender">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_TECHNICAL_SENDER/text()</path>
+              <content>${#TestSuite#donor}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="delay" name="Wait for Poller" id="240f6d64-0b18-434c-879a-4c6e75967219">
+        <con:settings/>
+        <con:config>
+          <delay>${#TestSuite#PollTime}</delay>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_RSXM Table_CTRA" id="5b320177-1fb7-4735-ad1c-880a47805502">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.raw_soap_xml_messages where rsxm_st_id = '${#TestCase#ctraId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert RSXM_STATUS]" id="a66fa1e2-98b0-40ab-89fd-91fc07f91fb6">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/RSXM_STATUS[1]/text()</path>
+              <content>Failed</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="3eea2220-d7e0-4082-b91f-0e40a151aa87" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="27748f0e-892d-4fa3-be8a-4b9369da08cc" name="Script: SaveRSXM_ID">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results/ResultSet/Row/ID", "ctrRSXMId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_MSL Table_CTRA" id="8c570fab-460e-4e88-8685-c669c57fcbd0">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>Select * from overstappen.message_logging where 
+msl_soap_transaction_id = '${#TestCase#ctraTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert MSL_CLC_ID]" id="e99eef8e-047f-4dff-930b-7b92f2348249">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/MSL_CLC_ID[1]/text()</path>
+              <content>80</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="2e22e397-a8c7-4fe1-aeae-bc2ef5ac7c5a" name="JDBC Status"/>
+          <con:assertion type="XPath Match" id="9a0fb352-314c-477f-be3d-45219d2d69cb" name="Xpath: assert RowCount">
+            <con:configuration>
+              <path>count(/Results/ResultSet/Row)</path>
+              <content>1</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="eaea67a8-22a7-40f9-af6b-f1a574a7dafb" name="Xpath: assert SoapTransactionId">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/MSL_ST_ID/text()</path>
+              <content>${#TestCase#ctraId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_SXM Table_CTRA" id="a3e90752-6237-4927-b4b6-9ccc3b39412b">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_xml_messages where
+sxm_xml_message like '%${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01%'
+and sxm_xml_message like '%&lt;messagetype>contractterminationrequestanswer&lt;/messagetype>%'
+and sxm_xml_message_type = 'Error Found'
+and sxm_sender = '${#TestSuite#recipient}'
+and sxm_receiver = '${#TestSuite#donor}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_TRANSACTION_ID]" id="bf10f636-c029-4dda-9a44-2917d2188cb9">
+            <con:configuration>
+              <path>//ID</path>
+              <content>*</content>
+              <allowWildcards>true</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" name="Contains: Contains" id="a1e1b0ed-fff7-4f8c-9eba-dee62ae7b198">
+            <con:configuration>
+              <token>contractterminationrequest</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="40eec153-4c59-4e25-9e67-e97626c142b3" name="NotContains: Not Contains">
+            <con:configuration>
+              <token>Row rowNumber="2"</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" id="fcd8a841-7f26-4e21-9ee3-7e7b06db85ef" name="Contains: assert soapversion">
+            <con:configuration>
+              <token>&amp;lt;${#TestSuite#donorSoapVersion}&amp;gt;</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="eae9a481-a910-4a32-92d5-becddd68a415" name="NotContains: >1 record">
+            <con:configuration>
+              <token>&lt;Row rowNumber="2"></token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="ac68c76d-d046-4486-987b-b7aa39918fc9" name="JDBC Status"/>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTCHA" id="c6cc9962-5970-4898-a8e5-4ea67809dbd7">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTCHA" wssPasswordType="PasswordText" id="a2384f30-a94d-494a-bf03-d8346b0e4cf8">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#donor}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#contractId}-001</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<changeanswer>
+<${#TestSuite#donorSoapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<blocking>N</blocking>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+<note>Change Answer ok to inactive recipient</note>
+</${#TestSuite#donorSoapVersion}>
+</changeanswer>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="SOAP Response" id="7bd646aa-dfc2-481d-88fa-48b92a036ef7"/>
+            <con:assertion type="XPath Match" name="Check for existance of [ns2:TransactionId]" id="1fda11b6-ac64-460b-a80b-3ace69554a04">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+exists( //ns2:SendMessagesResponse/ns2:TransactionId)</path>
+                <content>true</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="GroovyScriptAssertion" name="Assert ctraTransactionId" id="5b3feb3c-320c-4d94-8047-0de536a0d25a">
+              <con:configuration>
+                <scriptText>import com.eviware.soapui.support.XmlHolder
+
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+holder.namespaces["ns2"] = "http://coin.nl/ws/schema"
+def transactionId = holder.getNodeValue( "//ns2:SendMessagesResponse[1]/ns2:TransactionId[1]" )
+messageExchange.modelItem.testStep.testCase.setPropertyValue("ctchaTransactionId",transactionId)</scriptText>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#donorUsername}</con:username>
+              <con:password>${#TestSuite#donorPassword}</con:password>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:preemptive>true</con:preemptive>
+              <con:authType>Preemptive</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_ST Table CTCHA" id="4bf8528f-5dc2-4882-b789-3b1fde4c3135">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_transactions 
+where st_transaction_id = '${#TestCase#ctchaTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_SEND_RECEIVED]" id="e040a4a7-c51e-41c1-9d50-1af5c712ccd9">
+            <con:configuration>
+              <path>exists( //Results/ResultSet/Row/ST_SEND_RECEIVED)</path>
+              <content>true</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_SEND_RECEIVED]" id="c4d9ed75-8840-4134-9ce4-499b819983e4">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_SEND_RECEIVED[1]/text()</path>
+              <content>received</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_TRANSACTION_ID]" id="3c641051-1cd1-4db0-a2c5-928b3bba1f62">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_TRANSACTION_ID[1]/text()</path>
+              <content>${#TestCase#ctchaTransactionId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="8a7c24c1-fd0e-4831-8dad-6939b1412b53" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="ee8d76de-0d68-4d98-bc84-241517324b9c" name="Script: assert ion">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results[1]/ResultSet[1]/Row[1]/ID[1]", "ctchaId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="2fdee8bc-6c69-4aeb-9e18-fb377693366a" name="Xpath: assert UserIP" disabled="true">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_IP/text()</path>
+              <content>${#Project#UserIP}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="eef9ed65-17ec-45e4-ba27-3a223db01609" name="Xpath: assert UserName">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_NAME/text()</path>
+              <content>${#TestSuite#donorUserName}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="3adf019b-55cd-4da6-bcef-f643f8db08cd" name="Xpath: assert TechSender">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_TECHNICAL_SENDER/text()</path>
+              <content>${#TestSuite#donor}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="delay" name="Wait for Poller 2" id="b400f158-a72d-4d22-bf28-716d7c4e6b2b">
+        <con:settings/>
+        <con:config>
+          <delay>${#TestSuite#PollTime}</delay>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_RSXM Table_CTCHA" id="fa06ae18-cee6-4db0-9157-ee57e8f9d3ff">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.raw_soap_xml_messages where rsxm_st_id = '${#TestCase#ctchaId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert RSXM_STATUS]" id="a66fa1e2-98b0-40ab-89fd-91fc07f91fb6">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/RSXM_STATUS[1]/text()</path>
+              <content>Failed</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="937b1afd-e887-4aff-bdc8-1e115bcf461d" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="1970dbad-a6bb-4fda-8ec2-bc0640e751e0" name="Script: SaveRSXM_ID">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results/ResultSet/Row/ID", "ctchaRSXMId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_MSL Table_CTCHA" id="4806154d-283b-4a42-9c1b-f46af61a30c2">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>Select * from overstappen.message_logging where 
+msl_soap_transaction_id = '${#TestCase#ctchaTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert MSL_CLC_ID]" id="e99eef8e-047f-4dff-930b-7b92f2348249">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/MSL_CLC_ID[1]/text()</path>
+              <content>80</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="3883e522-34ff-424d-a22e-8c291b3d2379" name="JDBC Status"/>
+          <con:assertion type="XPath Match" id="e999777a-dcfe-4eb6-bdf3-7fb2428b5235" name="Xpath: assert RowCount">
+            <con:configuration>
+              <path>count(/Results/ResultSet/Row)</path>
+              <content>1</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="784efcea-edc6-4775-a27c-5cb378518902" name="Xpath: assert SoapTransactionId">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/MSL_ST_ID/text()</path>
+              <content>${#TestCase#ctchaId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_SXM Table_CTCHA" id="5232dc55-8b8e-4c24-89e0-4ef9dacb04d6">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_xml_messages where
+sxm_xml_message like '%${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01%'
+and sxm_xml_message like '%&lt;messagetype>changeanswer&lt;/messagetype>%'
+and sxm_xml_message_type = 'Error Found'
+and sxm_sender = '${#TestSuite#recipient}'
+and sxm_receiver = '${#TestSuite#donor}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_TRANSACTION_ID]" id="bf10f636-c029-4dda-9a44-2917d2188cb9">
+            <con:configuration>
+              <path>//ID</path>
+              <content>*</content>
+              <allowWildcards>true</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" name="Contains: Contains" id="a1e1b0ed-fff7-4f8c-9eba-dee62ae7b198">
+            <con:configuration>
+              <token>changeanswer</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="40eec153-4c59-4e25-9e67-e97626c142b3" name="NotContains: Not Contains">
+            <con:configuration>
+              <token>Row rowNumber="2"</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" id="fcd8a841-7f26-4e21-9ee3-7e7b06db85ef" name="Contains: assert soapversion">
+            <con:configuration>
+              <token>&amp;lt;${#TestSuite#donorSoapVersion}&amp;gt;</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="eae9a481-a910-4a32-92d5-becddd68a415" name="NotContains: >1 record">
+            <con:configuration>
+              <token>&lt;Row rowNumber="2"></token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="152a0903-3698-4d26-953b-f2fca25e4b21" name="JDBC Status"/>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:setupScript>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+;
+def today = new Date() 
+def now = today.format("yyyy-MM-dd'T'HH:mm:ss")
+wishdate = today + 15
+def wishdate = wishdate.format("yyyy-MM-dd'T'HH:mm:ss")
+testRunner.testCase.setPropertyValue("Now",now)
+testRunner.testCase.setPropertyValue("wishDate",wishdate)
+String contractId = funcHandle.getRandomString();
+testRunner.testCase.setPropertyValue("contractId",contractId)
+def recipient = testCase.testSuite.getPropertyValue( "Recipient" )
+import groovy.sql.Sql;
+def  con = funcHandle.createDBConObject(testCase);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 2 where spr_code = '"+recipient+"'")
+log.info ("# records updated: "+query+", " + recipient + " set inactive" )</con:setupScript>
+      <con:tearDownScript>import nl.coin.Selenium.*;
+import groovy.sql.Sql;
+def funcHandle = new ReadymadeFunctions();
+def  con = funcHandle.createDBConObject(testSuite);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 1 where spr_code = '"+recipient+"'")
+log.info ("# records updated: "+query+", " + recipient + " set active" )</con:tearDownScript>
+      <con:properties/>
+      <con:reportParameters/>
+      <con:breakPoints>
+        <con:testStepId>0385bbb4-7d05-458e-857e-fd68f73eb4ba</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+    </con:testCase>
+    <con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="B4.6. inactive donor - 210" searchProperties="true" id="7dd18aaa-6c83-4884-b182-3be9a6b6e0dc" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="">
+      <con:description>Precondition: 
+Current donor should be inactive (Handled in set-up script)
+TestSteps:
+Send a CTR with inactive donor (Eg: NO1) 
+Expected:
+RSXM_STATUS should be FAILED
+Message_Logging entry should be created with MSL_CLC_ID=81
+2 records should be created in SXM table</con:description>
+      <con:settings/>
+      <con:testStep type="request" name="CTR v2/3" id="aa39784e-b31a-451c-b585-33e98857a93d">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTR v2/3" wssPasswordType="PasswordText" id="a2384f30-a94d-494a-bf03-d8346b0e4cf8">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<messageid>${#TestSuite#recipient}-${#TestCase#contractid}-01</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<recipientserviceprovider>${#TestSuite#recipient}</recipientserviceprovider>
+<recipientnetworkoperator>${#TestSuite#recipient}</recipientnetworkoperator>
+<donornetworkoperator>${#TestSuite#donor}</donornetworkoperator>
+<donorserviceprovider>${#TestSuite#donor}</donorserviceprovider>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+${#TestSuite#dossierType}
+${#TestSuite#compensationOK}
+<name>COIN</name>
+<addressblock>
+ 	<postcode>1389SS</postcode>
+	<housenr>99999</housenr>
+</addressblock>
+<numberseries>
+     <start>0173112233</start>
+     <end>0173112233</end>
+</numberseries>
+<validationblock>
+    <name>contractid</name>
+    <value>cx${#TestCase#contractID}</value>
+ </validationblock>
+<note>rainyday XSD validation</note>
+</${#TestSuite#soapVersion}>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="SOAP Response" id="7bd646aa-dfc2-481d-88fa-48b92a036ef7"/>
+            <con:assertion type="XPath Match" name="Check for existance of [ns2:TransactionId]" id="1fda11b6-ac64-460b-a80b-3ace69554a04">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+exists( //ns2:SendMessagesResponse/ns2:TransactionId)</path>
+                <content>true</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="GroovyScriptAssertion" name="Assert node [ns2:TransactionId]" id="5b3feb3c-320c-4d94-8047-0de536a0d25a">
+              <con:configuration>
+                <scriptText>import com.eviware.soapui.support.XmlHolder
+
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+holder.namespaces["ns2"] = "http://coin.nl/ws/schema"
+def transactionId = holder.getNodeValue( "//ns2:SendMessagesResponse[1]/ns2:TransactionId[1]" )
+messageExchange.modelItem.testStep.testCase.setPropertyValue("transactionId",transactionId)</scriptText>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#RecipientUsername}</con:username>
+              <con:password>${#TestSuite#RecipientPassword}</con:password>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:preemptive>true</con:preemptive>
+              <con:authType>Preemptive</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_ST Table" id="d365511b-2607-4065-a6ab-c96f2311e5db">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_transactions 
+where st_transaction_id = '${#TestCase#transactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_SEND_RECEIVED]" id="c4d9ed75-8840-4134-9ce4-499b819983e4">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_SEND_RECEIVED[1]/text()</path>
+              <content>received</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_TRANSACTION_ID]" id="3c641051-1cd1-4db0-a2c5-928b3bba1f62">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_TRANSACTION_ID[1]/text()</path>
+              <content>${#TestCase#transactionId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="00340759-21c1-4402-b968-a09206cfa032" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="32d3ea81-4ce7-48d7-95b2-65c533c8391f" name="Script: assert ion">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results[1]/ResultSet[1]/Row[1]/ID[1]", "Id");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="a18e0f13-47c0-4c95-bced-862e7ad02336" name="Xpath: assert UserIP" disabled="true">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_IP/text()</path>
+              <content>${#Project#UserIP}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="2586341a-c769-4b50-af10-9f92947f7efc" name="Xpath: assert UserName">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_NAME/text()</path>
+              <content>${#TestSuite#recipientUserName}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="e5a68bd2-7edb-4bf9-85f3-299dd53344b1" name="Xpath: assert TechSender">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_TECHNICAL_SENDER/text()</path>
+              <content>${#TestSuite#recipient}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="delay" name="Wait for Poller" id="1fcb48e6-a41f-4d24-967b-11349017e8c3">
+        <con:settings/>
+        <con:config>
+          <delay>${#TestSuite#PollTime}</delay>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_RSXM Table_CTR" id="208567fd-cd76-4bc6-a43d-6e8e147cc92d">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.raw_soap_xml_messages where rsxm_st_id = '${#TestCase#Id}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert RSXM_STATUS]" id="a66fa1e2-98b0-40ab-89fd-91fc07f91fb6">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/RSXM_STATUS[1]/text()</path>
+              <content>Failed</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="2ba78b69-2d69-401b-ab82-2a4be141324d" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="345cb702-4731-412e-8970-fd57ee307b8c" name="Script: SaveRSXM_ID">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results/ResultSet/Row/ID", "ctrRSXMId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_MSL Table_CTR" id="59d36bf2-2abd-445c-bb2d-feaa119ea299">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>Select * from overstappen.message_logging where 
+msl_soap_transaction_id = '${#TestCase#transactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert MSL_CLC_ID]" id="e99eef8e-047f-4dff-930b-7b92f2348249">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/MSL_CLC_ID[1]/text()</path>
+              <content>81</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="e477e2ec-6ad7-4122-8749-d9cf5abbc750" name="JDBC Status"/>
+          <con:assertion type="XPath Match" id="5f165e66-a10d-434b-a332-339b23b34fe9" name="Xpath: assert RowCount">
+            <con:configuration>
+              <path>count(/Results/ResultSet/Row)</path>
+              <content>1</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="62d48409-3db9-46c4-b5e7-64fb71da4a9d" name="Xpath: assert SoapTransactionId">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/MSL_ST_ID/text()</path>
+              <content>${#TestCase#Id}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_SXM Table_CTR" id="296b67c3-9bed-4f79-9ed9-81b0218d4709">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_xml_messages where
+sxm_xml_message like '%${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01%'
+and sxm_xml_message like '%${#TestSuite#donor}-${#TestCase#contractid}-01%'
+and sxm_xml_message like '%&lt;messagetype>contractterminationrequest&lt;/messagetype>%'
+and sxm_xml_message_type = 'Error Found'
+and sxm_sender = '${#TestSuite#donor}'
+and sxm_receiver = '${#TestSuite#recipient}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_TRANSACTION_ID]" id="bf10f636-c029-4dda-9a44-2917d2188cb9">
+            <con:configuration>
+              <path>//ID</path>
+              <content>*</content>
+              <allowWildcards>true</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" name="Contains: Contains" id="a1e1b0ed-fff7-4f8c-9eba-dee62ae7b198">
+            <con:configuration>
+              <token>contractterminationrequest</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="40eec153-4c59-4e25-9e67-e97626c142b3" name="NotContains: Not Contains">
+            <con:configuration>
+              <token>Row rowNumber="2"</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple Contains" id="fcd8a841-7f26-4e21-9ee3-7e7b06db85ef" name="Contains: assert soapversion">
+            <con:configuration>
+              <token>&amp;lt;${#TestSuite#soapVersion}&amp;gt;</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="6de46ded-4102-4a8a-a989-2a7b504fd53c" name="JDBC Status"/>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:setupScript>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+;
+def today = new Date() 
+def now = today.format("yyyy-MM-dd'T'HH:mm:ss")
+wishdate = today + 15
+def wishdate = wishdate.format("yyyy-MM-dd'T'HH:mm:ss")
+testRunner.testCase.setPropertyValue("Now",now)
+testRunner.testCase.setPropertyValue("wishDate",wishdate)
+String contractId = funcHandle.getRandomString();
+testRunner.testCase.setPropertyValue("contractId",contractId)
+def donor = testCase.testSuite.getPropertyValue( "Donor" )
+import groovy.sql.Sql;
+def  con = funcHandle.createDBConObject(testCase);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 2 where spr_code = '"+donor+"'")
+log.info (query)</con:setupScript>
+      <con:tearDownScript>def donor = testCase.testSuite.getPropertyValue( "Donor" )
+import nl.coin.Selenium.*;
+import groovy.sql.Sql;
+def funcHandle = new ReadymadeFunctions();
+def  con = funcHandle.createDBConObject(testSuite);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 1 where spr_code = '"+donor+"'")
+log.info (query)</con:tearDownScript>
+      <con:properties/>
+      <con:reportParameters/>
+      <con:breakPoints>
+        <con:testStepId>0385bbb4-7d05-458e-857e-fd68f73eb4ba</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+    </con:testCase>
+    <con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="B4.31. answers to inactive recipient - 209" searchProperties="true" id="de1581a5-329b-4137-8395-98a4a2fb3a21" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="">
+      <con:settings/>
+      <con:testStep type="request" name="CTR-Sunny Day" id="4a13ca8f-a82c-46c9-a993-3dd9e1f10c58">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTR-Sunny Day" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="3aa22f8f-37c1-4ea2-ba88-b80068a3761f">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@follow-redirects">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">\r
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#recipient}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#contractId}-01</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationrequest>
+<${#TestSuite#soapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+<!--Optional:-->
+<recipientserviceprovider>${#TestSuite#recipient}</recipientserviceprovider>
+<!--Optional:-->
+<recipientnetworkoperator>${#TestSuite#recipient}</recipientnetworkoperator>
+<!--Optional:-->
+<donornetworkoperator>${#TestSuite#donor}</donornetworkoperator>
+<!--Optional:-->
+<donorserviceprovider>${#TestSuite#donor}</donorserviceprovider>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+${#TestSuite#dossierType}
+${#TestSuite#compensationOK}
+<name>COIN</name>
+<addressblock>
+ 	<postcode>1389SS</postcode>
+	<housenr>99999</housenr>
+</addressblock>
+<numberseries>
+     <start>0173112233</start>
+     <end>0173112233</end>
+</numberseries>
+<validationblock>
+    <name>contractid</name>
+    <value>1-${#TestCase#contractID}</value>
+ </validationblock>
+<note>CTR sunny day</note>
+</${#TestSuite#soapVersion}>
+</contractterminationrequest>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="XPath Match" name="Match content of [ns2:TransactionId] using RegEx" id="1c471417-807a-4012-a734-b2dd5be94c8f">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+//ns2:SendMessagesResponse[1]/ns2:TransactionId[1]/text()</path>
+                <content>*</content>
+                <allowWildcards>true</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="XPath Match" name="Check count of [ns2:TransactionId]" id="345c96a3-89a0-476e-9875-b0c18e04ef5b">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+count( //ns2:SendMessagesResponse/ns2:TransactionId)</path>
+                <content>1</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#recipientUserName}</con:username>
+              <con:password>${#TestSuite#recipientPassWord}</con:password>
+              <con:domain xsi:nil="true"/>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:authType>Global HTTP Settings</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://coin.nl/SendMessages"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="delay" name="Wait For Poller" id="c8c99978-f7c9-4b1d-8673-f520fb5b1d04">
+        <con:settings/>
+        <con:config>
+          <delay>${#TestSuite#PollTime}</delay>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_CTD Table_CTR" id="d12f7b32-8d5c-4fdf-8d25-fd0bf8987464">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.contract_termination_dossier where 
+ctd_switchid = '${#TestSuite#Recipient}-${#TestSuite#Donor}-${#TestCase#ContractId}-01'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert CTD_DOSSIER_STATUS]" id="ac17d9f6-9653-435c-bd0c-9af6917f2aa6">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/CTD_DOSSIER_STATUS[1]/text()</path>
+              <content>Pending</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert CTD_PROCESS_STATUS]" id="ede8cc08-99ab-46ca-baf4-97e9f0895428">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/CTD_PROCESS_STATUS[1]/text()</path>
+              <content>Request</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="GroovyScriptAssertion" id="d0dec4d0-2676-462d-8fb9-b01040bbf491" name="Script: assert ion ctd_id">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def ctdid = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results[1]/ResultSet[1]/Row[1]/ID[1]", "ctdId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="5a7ba734-f97c-4b4e-a89b-c4d84c889d77" name="JDBC Status"/>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="disable recipient" id="9b1b1c81-e85f-4e32-8511-057383737695">
+        <con:settings/>
+        <con:config>
+          <script>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+def recipient = testRunner.testCase.testSuite.getPropertyValue( "Recipient" )
+def dbhostname = testRunner.testCase.testSuite.project.getPropertyValue("DBHostname")
+def dbport = testRunner.testCase.testSuite.project.getPropertyValue("DBPort")
+def dbuser = testRunner.testCase.testSuite.project.getPropertyValue("DBUser")
+def dbpassword = testRunner.testCase.testSuite.project.getPropertyValue("DBPassword")
+def dbdatabase = testRunner.testCase.testSuite.project.getPropertyValue("DBDatabase")
+import groovy.sql.Sql;
+import com.mysql.jdbc.*
+//Establish JDBC Connection to the DB
+def  con = Sql.newInstance("jdbc:postgresql://"+dbhostname+":"+dbport+"/"+dbdatabase+"?user="+dbuser+"&amp;password="+dbpassword);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 2 where spr_code = '"+recipient+"'")
+log.info ("# records updated: "+query+", " + recipient + " set inactive" )</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="request" name="CTRA" id="db2cd4ee-19c9-4d01-907e-cf1b42ed5dff">
+        <con:settings/>
+        <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:interface>CompWebserviceSoap11</con:interface>
+          <con:operation>SendMessages</con:operation>
+          <con:request name="CTRA" wssPasswordType="PasswordText" id="a2384f30-a94d-494a-bf03-d8346b0e4cf8">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>${#Project#SoapUrl}</con:endpoint>
+            <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://coin.nl/ws/schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:SendMessagesRequest>
+         <sch:Sender>${#TestSuite#donor}</sch:Sender>
+         <sch:Messages>
+            <sch:Message>
+               <sch:Text><![CDATA[<?xml version="1.0"?>
+<message xmlns="http://www.coin.nl/Overstappen_MESSAGES">
+<header>
+<receiver>
+<!--Optional:-->
+<networkoperator>${#TestSuite#recipient}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#recipient}</serviceprovider>
+</receiver>
+<sender>
+<!--Optional:-->
+<networkoperator>${#TestSuite#donor}</networkoperator>
+<!--Optional:-->
+<serviceprovider>${#TestSuite#donor}</serviceprovider>
+</sender>
+<!--Optional:-->
+<messageid>${#TestSuite#recipient}-${#TestCase#contractId}-001</messageid>
+<timestamp>${#TestSuite#TimestampNOW}</timestamp>
+</header>
+<body>
+<contractterminationrequestanswer>
+<${#TestSuite#donorSoapVersion}>
+<dossierid>${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01</dossierid>
+${#TestSuite#donorDossierType}
+<blocking>N</blocking>
+<wishdatetime>${#TestCase#wishdate}</wishdatetime>
+<blockingcode>0</blockingcode>
+<note>Request Answer ok ${#TestSuite#soapVersion} sent ${#TestSuite#donorSoapVersion} expected</note>
+</${#TestSuite#donorSoapVersion}>
+</contractterminationrequestanswer>
+</body>
+</message>]]]]>><![CDATA[</sch:Text>
+            </sch:Message>
+         </sch:Messages>
+      </sch:SendMessagesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+            <con:assertion type="SOAP Response" id="7bd646aa-dfc2-481d-88fa-48b92a036ef7"/>
+            <con:assertion type="XPath Match" name="Check for existance of [ns2:TransactionId]" id="1fda11b6-ac64-460b-a80b-3ace69554a04">
+              <con:configuration>
+                <path>declare namespace ns2='http://coin.nl/ws/schema';
+exists( //ns2:SendMessagesResponse/ns2:TransactionId)</path>
+                <content>true</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="GroovyScriptAssertion" name="Assert node [ns2:TransactionId]" id="5b3feb3c-320c-4d94-8047-0de536a0d25a">
+              <con:configuration>
+                <scriptText>import com.eviware.soapui.support.XmlHolder
+
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+holder.namespaces["ns2"] = "http://coin.nl/ws/schema"
+def transactionId = holder.getNodeValue( "//ns2:SendMessagesResponse[1]/ns2:TransactionId[1]" )
+messageExchange.modelItem.testStep.testCase.setPropertyValue("ctraTransactionId",transactionId)</scriptText>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:username>${#TestSuite#donorUsername}</con:username>
+              <con:password>${#TestSuite#donorPassword}</con:password>
+              <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+              <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
+              <con:preemptive>true</con:preemptive>
+              <con:authType>Preemptive</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:wsaConfig mustUnderstand="NONE" version="200508"/>
+            <con:wsrmConfig version="1.2"/>
+          </con:request>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_ST Table" id="b6b439a2-f850-4a1a-a0d3-49bf1e224e00">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_transactions 
+where st_transaction_id = '${#TestCase#ctraTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: Check for existance of [ST_SEND_RECEIVED]" id="e040a4a7-c51e-41c1-9d50-1af5c712ccd9">
+            <con:configuration>
+              <path>exists( //Results/ResultSet/Row/ST_SEND_RECEIVED)</path>
+              <content>true</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_SEND_RECEIVED]" id="c4d9ed75-8840-4134-9ce4-499b819983e4">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_SEND_RECEIVED[1]/text()</path>
+              <content>received</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" name="Xpath: assert ST_TRANSACTION_ID]" id="3c641051-1cd1-4db0-a2c5-928b3bba1f62">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/ST_TRANSACTION_ID[1]/text()</path>
+              <content>${#TestCase#ctraTransactionId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="b761efed-8530-4b28-afdd-2f222cc7e80a" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="3d0dadf3-ae73-4b60-89a4-27a4c991f9f0" name="Script: assert ion">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results[1]/ResultSet[1]/Row[1]/ID[1]", "ctraId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="4bbf38a7-a45a-4277-ac35-84ce8ef38fb0" name="Xpath: assert UserIP" disabled="true">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_IP/text()</path>
+              <content>${#Project#UserIP}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="3ffc166b-9887-4050-94ca-6173d68d2386" name="Xpath: assert UserName">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_USER_NAME/text()</path>
+              <content>${#TestSuite#donorUserName}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="50e06802-249e-40a8-8522-424cb163c40c" name="Xpath: assert TechSender">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/ST_TECHNICAL_SENDER/text()</path>
+              <content>${#TestSuite#donor}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="delay" name="Wait for Poller" id="7bd08278-8f3d-41c4-bc5d-6e1f82c0af65">
+        <con:settings/>
+        <con:config>
+          <delay>${#TestSuite#PollTime}</delay>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_RSXM Table_CTR" id="39b9ad4e-1356-4086-9238-61d86ec4658d">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.raw_soap_xml_messages where rsxm_st_id = '${#TestCase#ctraId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert RSXM_STATUS]" id="a66fa1e2-98b0-40ab-89fd-91fc07f91fb6">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/RSXM_STATUS[1]/text()</path>
+              <content>Failed</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="8d7cc659-8b3b-45e4-a29e-ea6537afc1d8" name="JDBC Status"/>
+          <con:assertion type="GroovyScriptAssertion" id="05ae2718-cd0f-4d05-894f-5fe4addecabb" name="Script: SaveRSXM_ID">
+            <con:configuration>
+              <scriptText>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+import com.eviware.soapui.support.XmlHolder
+def holder = new XmlHolder( messageExchange.responseContentAsXml )
+def Id = funcHandle.getValueAndSaveAsTestCaseProperty(holder, messageExchange, "//Results/ResultSet/Row/ID", "ctrRSXMId");</scriptText>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_MSL Table_CTR" id="46daf30e-90ff-42cc-afd8-ef5f67bb6702">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>Select * from overstappen.message_logging where 
+msl_soap_transaction_id = '${#TestCase#ctraTransactionId}'</con:query>
+          <con:assertion type="XPath Match" name="Xpath: assert MSL_CLC_ID]" id="e99eef8e-047f-4dff-930b-7b92f2348249">
+            <con:configuration>
+              <path>//Results[1]/ResultSet[1]/Row[1]/MSL_CLC_ID[1]/text()</path>
+              <content>80</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="a7edd411-9ca9-4ba8-b43f-ea67905dc4bd" name="JDBC Status"/>
+          <con:assertion type="XPath Match" id="ccbd0847-1e56-465d-bb2f-1da58ef52bbb" name="Xpath: assert RowCount">
+            <con:configuration>
+              <path>count(/Results/ResultSet/Row)</path>
+              <content>1</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="XPath Match" id="da6e37d7-2326-4984-bd72-e7c05d7aadc4" name="Xpath: assert SoapTransactionId">
+            <con:configuration>
+              <path>/Results/ResultSet/Row/MSL_ST_ID/text()</path>
+              <content>${#TestCase#ctraId}</content>
+              <allowWildcards>false</allowWildcards>
+              <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+              <ignoreComments>false</ignoreComments>
+            </con:configuration>
+          </con:assertion>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="jdbc" name="JDBC_SXM Table_CTR" id="d5c413c3-9077-4bfa-8083-598287084a0d">
+        <con:settings/>
+        <con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dbConnectionName>JDBC</con:dbConnectionName>
+          <con:driver>org.postgresql.Driver</con:driver>
+          <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+          <con:password>${#Project#DBPassword}</con:password>
+          <con:query>select * from overstappen.soap_xml_messages where
+sxm_xml_message like '%${#TestSuite#recipient}-${#TestSuite#donor}-${#TestCase#ContractId}-01%'
+and sxm_xml_message like '%${#TestSuite#donor}-${#TestCase#contractid}-01%'
+and sxm_xml_message like '%&lt;messagetype>contractterminationrequestanswer&lt;/messagetype>%'
+and sxm_xml_message_type = 'Error Found'
+and sxm_sender = '${#TestSuite#donor}'
+and sxm_receiver = '${#TestSuite#recipient}'</con:query>
+          <con:assertion type="Simple NotContains" id="40eec153-4c59-4e25-9e67-e97626c142b3" name="NotContains: rownumber 1">
+            <con:configuration>
+              <token>Row rowNumber="1"</token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="Simple NotContains" id="eae9a481-a910-4a32-92d5-becddd68a415" name="NotContains: >1 record">
+            <con:configuration>
+              <token>&lt;Row rowNumber="2"></token>
+              <ignoreCase>false</ignoreCase>
+              <useRegEx>false</useRegEx>
+            </con:configuration>
+          </con:assertion>
+          <con:assertion type="JDBC Status" id="1d7eac9a-221d-4ed6-94ee-40ad93c96076" name="JDBC Status"/>
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:setupScript>import nl.coin.Selenium.*;
+def funcHandle = new ReadymadeFunctions();
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+;
+def today = new Date() 
+def now = today.format("yyyy-MM-dd'T'HH:mm:ss")
+wishdate = today + 15
+def wishdate = wishdate.format("yyyy-MM-dd'T'HH:mm:ss")
+testRunner.testCase.setPropertyValue("Now",now)
+testRunner.testCase.setPropertyValue("wishDate",wishdate)
+String contractId = funcHandle.getRandomString();
+testRunner.testCase.setPropertyValue("contractId",contractId)
+def recipient = testCase.testSuite.getPropertyValue( "Recipient" )
+import groovy.sql.Sql;
+def  con = funcHandle.createDBConObject(testCase);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 1 where spr_code = '"+recipient+"'")
+log.info ("# records updated: "+query+", " + recipient + " set active" )</con:setupScript>
+      <con:tearDownScript>import nl.coin.Selenium.*;
+import groovy.sql.Sql;
+def funcHandle = new ReadymadeFunctions();
+def  con = funcHandle.createDBConObject(testSuite);
+def query = con.executeUpdate("update overstappen.service_provider set spr_status = 1 where spr_code = '"+recipient+"'")
+log.info ("# records updated: "+query+", " + recipient + " set active" )</con:tearDownScript>
+      <con:properties/>
+      <con:reportParameters/>
+      <con:breakPoints>
+        <con:testStepId>0385bbb4-7d05-458e-857e-fd68f73eb4ba</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+    </con:testCase>
+    <con:properties>
+      <con:property>
+        <con:name>Inactive Donor</con:name>
+        <con:value>TP6</con:value>
+      </con:property>
+      <con:property>
+        <con:name>Inactive Recipient</con:name>
+        <con:value>TP6</con:value>
+      </con:property>
+      <con:property>
+        <con:name>LineNumber</con:name>
+        <con:value>0</con:value>
+      </con:property>
+      <con:property>
+        <con:name>MaxBusinessDays</con:name>
+        <con:value>120</con:value>
+      </con:property>
+      <con:property>
+        <con:name>MaxDays</con:name>
+        <con:value>90</con:value>
+      </con:property>
+      <con:property>
+        <con:name>MinDays</con:name>
+        <con:value>0</con:value>
+      </con:property>
+      <con:property>
+        <con:name>PollTime</con:name>
+        <con:value>2000</con:value>
+      </con:property>
+      <con:property>
+        <con:name>TimestampNOW</con:name>
+        <con:value>${=String.format('%tFT%&lt;tT', new Date())}</con:value>
+      </con:property>
+      <con:property>
+        <con:name>testdatafile</con:name>
+        <con:value>rainyday.csv</con:value>
+      </con:property>
+      <con:property>
+        <con:name>browser</con:name>
+        <con:value>firefox</con:value>
+      </con:property>
+    </con:properties>
+    <con:setupScript>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+import org.apache.commons.lang.RandomStringUtils
+import groovy.time.TimeCategory
+import nl.coin.Selenium.*;
+def directory = groovyUtils.projectPath + "/"
+System.setProperty("projectfiledir", directory)
+def seleniumHandle = new SeleniumActions();
+def funcHandle = new ReadymadeFunctions();
+def Line = funcHandle.getTestDataAndIncreaseLinenumber(testSuite, directory);
+//Split the first line into a string array and assign the array elements to various test case properties
+String[] propData = Line.split(";")
+funcHandle.setRecipientAndDonorSoapCredentials(seleniumHandle, testSuite, directory, propData[0], propData[1]);
+testSuite.setPropertyValue("soapVersion",propData[2])
+testSuite.setPropertyValue("dossierType",propData[3])
+testSuite.setPropertyValue("compensationOK",propData[4])
+import groovy.sql.Sql;
+def  con = funcHandle.createDBConObject(testSuite);
+def recepientDetails = funcHandle.setProperty4mDB(testSuite, con, "select spr_code, it_interface_type,business_gui_only from overstappen.service_provider inner join overstappen.interface_type on service_provider.spr_request_it_id = interface_type.id where service_provider.spr_code = '"+ propData[0]+"'", ["business_gui_only", "it_interface_type"] as String[], ["recipientbgo", "recipientif"] as String[]);
+def donorDetails = funcHandle.setProperty4mDB(testSuite, con, "select spr_code, it_interface_type,business_gui_only from overstappen.service_provider inner join overstappen.interface_type on service_provider.spr_request_it_id = interface_type.id where service_provider.spr_code = '"+ propData[1]+"'", ["business_gui_only", "it_interface_type"] as String[], ["donorbgo", "donorif"] as String[]);
+testSuite.setPropertyValue( "businessGuiOnly" , donorDetails[0])
+def donorsoap = funcHandle.getDonorSoapVersionS2SAndSetProperty(testSuite, donorDetails[1], propData[3], "donorSoapVersion");
+def donorbusiness = funcHandle.getDonorDossierTypeS2SAndSetProperty(testSuite, donorDetails[1], propData[3], "donorDossierType");
+def donorMessage = funcHandle.getMessageTypeAndSetProperty(testSuite, donorDetails[1], propData[3], donorDetails[0], "donorMessage");
+funcHandle.setProperty4mDB(testSuite, con, "select id from overstappen.service_provider where spr_code='"+ propData[0]+"'", "id", "recipientId")
+funcHandle.setProperty4mDB(testSuite, con, "select id from overstappen.service_provider where spr_code='"+ propData[1]+"'", "id", "donorId");
+funcHandle.getOutgoingMsgTypeAndSetProperty(testSuite, propData[3], recepientDetails[0], recepientDetails[1], "donorOutMsg");
+funcHandle.getOutgoingMsgTypeAndSetProperty(testSuite, propData[3], donorDetails[0], donorDetails[1], "recipientOutMsg");
+con.close()</con:setupScript>
+    <con:reportParameters/>
+  </con:testSuite>
+  <con:endpointStrategy xsi:type="con:DefaultEndpointStrategy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:endpoint mode="COMPLEMENT" username="Bert" password="Ernie" wssType="PasswordText">http://testcomp.coin.nl/compv3/MessageService</con:endpoint>
+    <con:endpoint mode="COMPLEMENT" username="Bert" password="Ernie" wssType="PasswordText" domain="" outgoingWss="" incomingWss="">http://210.7.69.28:8080/compv3/MessageService</con:endpoint>
+    <con:endpoint mode="COMPLEMENT" username="Bert" password="Ernie">http://192.168.100.28:8080/compv3/MessageService</con:endpoint>
+  </con:endpointStrategy>
+  <con:requirements/>
+  <con:properties>
+    <con:property>
+      <con:name>directory</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>SoapUrl</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>DBHostname</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>DBPort</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>DBUser</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>DBPassword</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>DBDatabase</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>GUIUrl</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>UserIP</con:name>
+      <con:value/>
+    </con:property>
+  </con:properties>
+  <con:afterLoadScript/>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer>
+    <con:databaseConnection>
+      <con:name>JDBC</con:name>
+      <con:driver>org.postgresql.Driver</con:driver>
+      <con:connectionString>jdbc:postgresql://${#Project#DBHostname}:${#Project#DBPort}/${#Project#DBDatabase}?user=${#Project#DBUser}&amp;password=PASS_VALUE</con:connectionString>
+      <con:password>${#Project#DBPassword}</con:password>
+    </con:databaseConnection>
+  </con:databaseConnectionContainer>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:reporting>
+    <con:xmlTemplates/>
+    <con:parameters/>
+  </con:reporting>
+  <con:sensitiveInformation/>
+</con:soapui-project>

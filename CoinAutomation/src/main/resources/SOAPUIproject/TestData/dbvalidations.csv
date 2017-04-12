@@ -1,0 +1,51 @@
+TP6;TP8;v1; ; 
+TP6;TP9;v1; ; 
+TP6;TP10;v1; ; 
+TP6;TP12;v1; ; 
+TP6;TP13;v1; ; 
+TP6;TP14;v1; ; 
+TP8;TP6;v1; ; 
+TP9;TP6;v2; ; 
+TP9;TP8;v2; ; 
+TP9;TP10;v2; ; 
+TP9;TP12;v2; ; 
+TP9;TP13;v2; ; 
+TP9;TP14;v2; ; 
+TP10;TP6;v2; ; 
+TP10;TP8;v2; ; 
+TP10;TP9;v2; ; 
+TP10;TP12;v2; ; 
+TP10;TP13;v2; ; 
+TP10;TP14;v2; ; 
+TP12;TP6;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP12;TP8;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP12;TP9;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP12;TP13;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP12;TP14;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP12;TP17;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP6;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP8;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP9;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP12;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP14;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP19;v3;<business>N</business>;<earlytermination>N</earlytermination>
+TP13;TP6;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP13;TP9;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP13;TP10;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP13;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP13;TP14;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP13;TP19;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP6;v2; ; 
+TP14;TP8;v2; ; 
+TP14;TP9;v2; ; 
+TP14;TP10;v2; ; 
+TP14;TP12;v2; ; 
+TP14;TP13;v2; ; 
+TP14;TP15;v2; ; 
+TP14;TP9;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP10;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP12;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP13;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP15;v3;<business>Y</business>;<earlytermination>N</earlytermination>
+TP14;TP15;v3;<business>Y</business>;<earlytermination>Y</earlytermination>
+TP12;TP7;v3;<business>N</business>;<earlytermination>N</earlytermination>
